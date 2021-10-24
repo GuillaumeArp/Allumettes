@@ -1,7 +1,3 @@
-# Python
+# Allumettes
 
-This is the Template Repl for Python.
-
-Python is a dynamic language emphasizing readability.
-
-[Check out the official docs here](https://www.python.org/).
+Test de code pour simuler un jeu des allumettes, avec un bot ou 2 joueurs.

@@ -10,7 +10,7 @@ def matches_game():
     num_list = ["1", "2", "3", "4", "5", "6"]
 
     while nb_matches > 0:
-      print(f"Joueur : il reste {nb_matches} allumettes")
+      print(f"\nJoueur : il reste {nb_matches} allumettes")
       matches_removed = input("Entrez un nombre d'allumettes à retirer entre 1 et 6: ")
       if matches_removed in num_list:
         if int(matches_removed) <= nb_matches:
@@ -25,7 +25,7 @@ def matches_game():
         print("Bravo, vous avez retiré la dernière allumette !")
         break
 
-      print(f"Bot : il reste {nb_matches} allumettes")
+      print(f"\nBot : il reste {nb_matches} allumettes")
       if nb_matches >= 6:
         matches_removed_bot = random.randint(1, 6)
         print(f"Le bot a choisi de retirer {matches_removed_bot} allumettes")
